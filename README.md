@@ -119,7 +119,7 @@ autoencoder1.fit(x_train_noisy, x_train_scaled,
 metrics = pd.DataFrame(autoencoder1.history.history)
 metrics.head()
 
-print("SABARI AKASH A")
+print("MIRUDHULA D")
 metrics[['loss','val_loss']].plot()
 decoded_imgs = autoencoder1.predict(x_test_noisy)
 
